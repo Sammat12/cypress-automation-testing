@@ -4,4 +4,5 @@ Cypress.Commands.add('resetPassword', (email) => {
     //cy.get('.required').should('contain', '*').and('be.visible');
     cy.get('input[name="Email"]').type(email);
     cy.get("button").contains("Continue").click();
+    // Hello
     });
